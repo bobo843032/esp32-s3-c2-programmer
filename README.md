@@ -1,5 +1,7 @@
 # ESP32-S3 Nano C2 Programmer
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/bobo843032/esp32-s3-c2-programmer)
+
 An experimental Silicon Labs C2 interface for the Waveshare ESP32-S3 Nano, targeting C8051F320/F321 devices. Includes an identification-only sketch, a programmer sketch, and a Python serial client.
 
 **Status: hardware reading demonstrated on a Corsair H80i GT, as reported by the project owner.** The project owner confirms successful firmware extraction with this C2 programmer. Writing and erasing have not been confirmed. The supplied host-side tests also pass. The attached firmware dump is retained outside the public repository package; see the [hardware result](docs/hardware-result.md).
