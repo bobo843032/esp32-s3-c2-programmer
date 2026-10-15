@@ -1,6 +1,6 @@
 # ESP32-S3 Nano C2 Programmer
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/bobo843032/esp32-s3-c2-programmer)
+[![Ask DeepWiki](https://img.shields.io/badge/Ask-DeepWiki-blue)](https://deepwiki.com/bobo843032/esp32-s3-c2-programmer)
 
 An experimental Silicon Labs C2 interface for the Waveshare ESP32-S3 Nano, targeting C8051F320/F321 devices. Includes an identification-only sketch, a programmer sketch, and a Python serial client.
 
