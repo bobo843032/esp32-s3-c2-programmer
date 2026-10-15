@@ -14,7 +14,6 @@ An experimental Silicon Labs C2 interface for the Waveshare ESP32-S3 Nano, targe
 | [Hardware result](docs/hardware-result.md) | Reported H80i GT readout and supplied dump metadata |
 | [Validation and limitations](docs/validation.md) | Offline tests and unresolved hardware questions |
 | [File organization](docs/file-organization.md) | Included files and excluded attachments |
-| [Optional analysis tools](tools/ghidra/README.md) | Ghidra export and SFR analysis scripts |
 | [Security policy](SECURITY.md) | Reporting and handling dumps |
 | [License status](LICENSE.md) | No license grant selected yet |
 
@@ -27,7 +26,6 @@ An experimental Silicon Labs C2 interface for the Waveshare ESP32-S3 Nano, targe
 | `cli/c2prog.py` | Python client for the programmer sketch |
 | `tests/` | Offline Python tests and C++ GPIO simulation |
 | `tests/stubs/Arduino.h` | Test-only Arduino substitute; never install it as an Arduino library |
-| `tools/ghidra/` | Optional firmware-analysis utilities |
 
 Each Arduino sketch is in a separate directory matching its main `.ino` filename. Upload one sketch at a time. The Python client talks to the programmer sketch; it does not support the reader's interactive protocol.
 
